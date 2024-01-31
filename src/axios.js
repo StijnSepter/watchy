@@ -1,9 +1,9 @@
 import axios from 'axios'
 
 const insteance = axios.create({
-    baseURL: 'http://127.0.0.1:3000/',
+    baseURL: 'https://api.themoviedb.org/3/',
 });
-
-insteance.get('/foo-bar')
+console.log(insteance);
+//insteance.get('/movie')
 
 export default axios;
